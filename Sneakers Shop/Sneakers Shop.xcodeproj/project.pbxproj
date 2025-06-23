@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B45FC62E09603C00A9CE95 /* Sneakers_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B45FC52E09603C00A9CE95 /* Sneakers_ShopApp.swift */; };
+		FA0A7E3C2E09AAA900B5F0BA /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E3B2E09AAA900B5F0BA /* FirebaseAppCheck */; };
+		FA0A7E3E2E09AAA900B5F0BA /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E3D2E09AAA900B5F0BA /* FirebaseAppDistribution-Beta */; };
+		FA0A7E402E09AAA900B5F0BA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E3F2E09AAA900B5F0BA /* FirebaseAuth */; };
+		FA0A7E422E09AAA900B5F0BA /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E412E09AAA900B5F0BA /* FirebaseAuthCombine-Community */; };
+		FA0A7E442E09AAA900B5F0BA /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E432E09AAA900B5F0BA /* FirebaseCore */; };
+		FA0A7E462E09AAA900B5F0BA /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E452E09AAA900B5F0BA /* FirebaseCrashlytics */; };
+		FA0A7E482E09AAA900B5F0BA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E472E09AAA900B5F0BA /* FirebaseDatabase */; };
+		FA0A7E4A2E09AAA900B5F0BA /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E492E09AAA900B5F0BA /* FirebaseDynamicLinks */; };
+		FA0A7E4C2E09AAA900B5F0BA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E4B2E09AAA900B5F0BA /* FirebaseFirestore */; };
+		FA0A7E4E2E09AAA900B5F0BA /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E4D2E09AAA900B5F0BA /* FirebaseFirestoreCombine-Community */; };
+		FA0A7E502E09AB2800B5F0BA /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E4F2E09AB2800B5F0BA /* FirebaseAI */; };
+		FA0A7E522E09AB2800B5F0BA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E512E09AB2800B5F0BA /* FirebaseAnalytics */; };
+		FA0A7E542E09AB2800B5F0BA /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E532E09AB2800B5F0BA /* FirebaseAnalyticsCore */; };
+		FA0A7E562E09AB2800B5F0BA /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E552E09AB2800B5F0BA /* FirebaseAnalyticsIdentitySupport */; };
+		FA0A7E582E09AB2800B5F0BA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E572E09AB2800B5F0BA /* FirebaseAnalyticsOnDeviceConversion */; };
+		FA0A7E5A2E09AB2800B5F0BA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E592E09AB2800B5F0BA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FA0A7E5C2E09AB2800B5F0BA /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E5B2E09AB2800B5F0BA /* FirebaseFunctions */; };
+		FA0A7E5E2E09AB2800B5F0BA /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E5D2E09AB2800B5F0BA /* FirebaseFunctionsCombine-Community */; };
+		FA0A7E602E09AB2800B5F0BA /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E5F2E09AB2800B5F0BA /* FirebaseInAppMessaging-Beta */; };
+		FA0A7E622E09AB2800B5F0BA /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E612E09AB2800B5F0BA /* FirebaseInstallations */; };
+		FA0A7E642E09AB2800B5F0BA /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E632E09AB2800B5F0BA /* FirebaseMLModelDownloader */; };
+		FA0A7E662E09AB2800B5F0BA /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E652E09AB2800B5F0BA /* FirebaseMessaging */; };
+		FA0A7E682E09AB2800B5F0BA /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E672E09AB2800B5F0BA /* FirebasePerformance */; };
+		FA0A7E6A2E09AB2800B5F0BA /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E692E09AB2800B5F0BA /* FirebaseRemoteConfig */; };
+		FA0A7E6C2E09AB2800B5F0BA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E6B2E09AB2800B5F0BA /* FirebaseStorage */; };
+		FA0A7E6E2E09AB2800B5F0BA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E6D2E09AB2800B5F0BA /* FirebaseStorageCombine-Community */; };
+		FA0A7E702E09AB2800B5F0BA /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = FA0A7E6F2E09AB2800B5F0BA /* FirebaseVertexAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B45FD42E09603C00A9CE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B45FBA2E09603B00A9CE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B45FC12E09603B00A9CE95;
+			remoteInfo = "Sneakers Shop";
+		};
+		C4B45FDE2E09603D00A9CE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B45FBA2E09603B00A9CE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B45FC12E09603B00A9CE95;
+			remoteInfo = "Sneakers Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4B45FC22E09603C00A9CE95 /* Sneakers Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sneakers Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B45FC52E09603C00A9CE95 /* Sneakers_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneakers_ShopApp.swift; sourceTree = "<group>"; };
+		C4B45FD32E09603C00A9CE95 /* Sneakers ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sneakers ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B45FDD2E09603D00A9CE95 /* Sneakers ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sneakers ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C4B45FC42E09603C00A9CE95 /* Sneakers Shop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sneakers Shop";
+			sourceTree = "<group>";
+		};
+		C4B45FD62E09603C00A9CE95 /* Sneakers ShopTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sneakers ShopTests";
+			sourceTree = "<group>";
+		};
+		C4B45FE02E09603D00A9CE95 /* Sneakers ShopUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sneakers ShopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B45FBF2E09603B00A9CE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A7E5C2E09AB2800B5F0BA /* FirebaseFunctions in Frameworks */,
+				FA0A7E3C2E09AAA900B5F0BA /* FirebaseAppCheck in Frameworks */,
+				FA0A7E442E09AAA900B5F0BA /* FirebaseCore in Frameworks */,
+				FA0A7E6C2E09AB2800B5F0BA /* FirebaseStorage in Frameworks */,
+				FA0A7E522E09AB2800B5F0BA /* FirebaseAnalytics in Frameworks */,
+				FA0A7E402E09AAA900B5F0BA /* FirebaseAuth in Frameworks */,
+				FA0A7E4E2E09AAA900B5F0BA /* FirebaseFirestoreCombine-Community in Frameworks */,
+				FA0A7E642E09AB2800B5F0BA /* FirebaseMLModelDownloader in Frameworks */,
+				FA0A7E4A2E09AAA900B5F0BA /* FirebaseDynamicLinks in Frameworks */,
+				FA0A7E542E09AB2800B5F0BA /* FirebaseAnalyticsCore in Frameworks */,
+				FA0A7E5A2E09AB2800B5F0BA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FA0A7E582E09AB2800B5F0BA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				FA0A7E462E09AAA900B5F0BA /* FirebaseCrashlytics in Frameworks */,
+				FA0A7E702E09AB2800B5F0BA /* FirebaseVertexAI in Frameworks */,
+				FA0A7E602E09AB2800B5F0BA /* FirebaseInAppMessaging-Beta in Frameworks */,
+				FA0A7E5E2E09AB2800B5F0BA /* FirebaseFunctionsCombine-Community in Frameworks */,
+				FA0A7E4C2E09AAA900B5F0BA /* FirebaseFirestore in Frameworks */,
+				FA0A7E6E2E09AB2800B5F0BA /* FirebaseStorageCombine-Community in Frameworks */,
+				FA0A7E6A2E09AB2800B5F0BA /* FirebaseRemoteConfig in Frameworks */,
+				FA0A7E3E2E09AAA900B5F0BA /* FirebaseAppDistribution-Beta in Frameworks */,
+				FA0A7E562E09AB2800B5F0BA /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				FA0A7E682E09AB2800B5F0BA /* FirebasePerformance in Frameworks */,
+				FA0A7E502E09AB2800B5F0BA /* FirebaseAI in Frameworks */,
+				FA0A7E482E09AAA900B5F0BA /* FirebaseDatabase in Frameworks */,
+				FA0A7E422E09AAA900B5F0BA /* FirebaseAuthCombine-Community in Frameworks */,
+				FA0A7E662E09AB2800B5F0BA /* FirebaseMessaging in Frameworks */,
+				FA0A7E622E09AB2800B5F0BA /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FD02E09603C00A9CE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FDA2E09603D00A9CE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B45FB92E09603B00A9CE95 = {
+			isa = PBXGroup;
+			children = (
+				C4B45FC52E09603C00A9CE95 /* Sneakers_ShopApp.swift */,
+				C4B45FC42E09603C00A9CE95 /* Sneakers Shop */,
+				C4B45FD62E09603C00A9CE95 /* Sneakers ShopTests */,
+				C4B45FE02E09603D00A9CE95 /* Sneakers ShopUITests */,
+				C4B45FC32E09603C00A9CE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B45FC32E09603C00A9CE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B45FC22E09603C00A9CE95 /* Sneakers Shop.app */,
+				C4B45FD32E09603C00A9CE95 /* Sneakers ShopTests.xctest */,
+				C4B45FDD2E09603D00A9CE95 /* Sneakers ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B45FC12E09603B00A9CE95 /* Sneakers Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B45FE72E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers Shop" */;
+			buildPhases = (
+				C4B45FBE2E09603B00A9CE95 /* Sources */,
+				C4B45FBF2E09603B00A9CE95 /* Frameworks */,
+				C4B45FC02E09603B00A9CE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C4B45FC42E09603C00A9CE95 /* Sneakers Shop */,
+			);
+			name = "Sneakers Shop";
+			packageProductDependencies = (
+				FA0A7E3B2E09AAA900B5F0BA /* FirebaseAppCheck */,
+				FA0A7E3D2E09AAA900B5F0BA /* FirebaseAppDistribution-Beta */,
+				FA0A7E3F2E09AAA900B5F0BA /* FirebaseAuth */,
+				FA0A7E412E09AAA900B5F0BA /* FirebaseAuthCombine-Community */,
+				FA0A7E432E09AAA900B5F0BA /* FirebaseCore */,
+				FA0A7E452E09AAA900B5F0BA /* FirebaseCrashlytics */,
+				FA0A7E472E09AAA900B5F0BA /* FirebaseDatabase */,
+				FA0A7E492E09AAA900B5F0BA /* FirebaseDynamicLinks */,
+				FA0A7E4B2E09AAA900B5F0BA /* FirebaseFirestore */,
+				FA0A7E4D2E09AAA900B5F0BA /* FirebaseFirestoreCombine-Community */,
+				FA0A7E4F2E09AB2800B5F0BA /* FirebaseAI */,
+				FA0A7E512E09AB2800B5F0BA /* FirebaseAnalytics */,
+				FA0A7E532E09AB2800B5F0BA /* FirebaseAnalyticsCore */,
+				FA0A7E552E09AB2800B5F0BA /* FirebaseAnalyticsIdentitySupport */,
+				FA0A7E572E09AB2800B5F0BA /* FirebaseAnalyticsOnDeviceConversion */,
+				FA0A7E592E09AB2800B5F0BA /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FA0A7E5B2E09AB2800B5F0BA /* FirebaseFunctions */,
+				FA0A7E5D2E09AB2800B5F0BA /* FirebaseFunctionsCombine-Community */,
+				FA0A7E5F2E09AB2800B5F0BA /* FirebaseInAppMessaging-Beta */,
+				FA0A7E612E09AB2800B5F0BA /* FirebaseInstallations */,
+				FA0A7E632E09AB2800B5F0BA /* FirebaseMLModelDownloader */,
+				FA0A7E652E09AB2800B5F0BA /* FirebaseMessaging */,
+				FA0A7E672E09AB2800B5F0BA /* FirebasePerformance */,
+				FA0A7E692E09AB2800B5F0BA /* FirebaseRemoteConfig */,
+				FA0A7E6B2E09AB2800B5F0BA /* FirebaseStorage */,
+				FA0A7E6D2E09AB2800B5F0BA /* FirebaseStorageCombine-Community */,
+				FA0A7E6F2E09AB2800B5F0BA /* FirebaseVertexAI */,
+			);
+			productName = "Sneakers Shop";
+			productReference = C4B45FC22E09603C00A9CE95 /* Sneakers Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B45FD22E09603C00A9CE95 /* Sneakers ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B45FEA2E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers ShopTests" */;
+			buildPhases = (
+				C4B45FCF2E09603C00A9CE95 /* Sources */,
+				C4B45FD02E09603C00A9CE95 /* Frameworks */,
+				C4B45FD12E09603C00A9CE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B45FD52E09603C00A9CE95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4B45FD62E09603C00A9CE95 /* Sneakers ShopTests */,
+			);
+			name = "Sneakers ShopTests";
+			packageProductDependencies = (
+			);
+			productName = "Sneakers ShopTests";
+			productReference = C4B45FD32E09603C00A9CE95 /* Sneakers ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4B45FDC2E09603D00A9CE95 /* Sneakers ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B45FED2E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers ShopUITests" */;
+			buildPhases = (
+				C4B45FD92E09603D00A9CE95 /* Sources */,
+				C4B45FDA2E09603D00A9CE95 /* Frameworks */,
+				C4B45FDB2E09603D00A9CE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B45FDF2E09603D00A9CE95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4B45FE02E09603D00A9CE95 /* Sneakers ShopUITests */,
+			);
+			name = "Sneakers ShopUITests";
+			packageProductDependencies = (
+			);
+			productName = "Sneakers ShopUITests";
+			productReference = C4B45FDD2E09603D00A9CE95 /* Sneakers ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B45FBA2E09603B00A9CE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C4B45FC12E09603B00A9CE95 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C4B45FD22E09603C00A9CE95 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C4B45FC12E09603B00A9CE95;
+					};
+					C4B45FDC2E09603D00A9CE95 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C4B45FC12E09603B00A9CE95;
+					};
+				};
+			};
+			buildConfigurationList = C4B45FBD2E09603B00A9CE95 /* Build configuration list for PBXProject "Sneakers Shop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B45FB92E09603B00A9CE95;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C4B45FC32E09603C00A9CE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B45FC12E09603B00A9CE95 /* Sneakers Shop */,
+				C4B45FD22E09603C00A9CE95 /* Sneakers ShopTests */,
+				C4B45FDC2E09603D00A9CE95 /* Sneakers ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B45FC02E09603B00A9CE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FD12E09603C00A9CE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FDB2E09603D00A9CE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B45FBE2E09603B00A9CE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B45FC62E09603C00A9CE95 /* Sneakers_ShopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FCF2E09603C00A9CE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B45FD92E09603D00A9CE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B45FD52E09603C00A9CE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B45FC12E09603B00A9CE95 /* Sneakers Shop */;
+			targetProxy = C4B45FD42E09603C00A9CE95 /* PBXContainerItemProxy */;
+		};
+		C4B45FDF2E09603D00A9CE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B45FC12E09603B00A9CE95 /* Sneakers Shop */;
+			targetProxy = C4B45FDE2E09603D00A9CE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4B45FE52E09603D00A9CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4B45FE62E09603D00A9CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C4B45FE82E09603D00A9CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sneakers Shop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sneakers Shop";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C4B45FE92E09603D00A9CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sneakers Shop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sneakers Shop";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C4B45FEB2E09603D00A9CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sneakers Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sneakers Shop";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C4B45FEC2E09603D00A9CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sneakers Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sneakers Shop";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C4B45FEE2E09603D00A9CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Sneakers Shop";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C4B45FEF2E09603D00A9CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinon42.Sneakers-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Sneakers Shop";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B45FBD2E09603B00A9CE95 /* Build configuration list for PBXProject "Sneakers Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B45FE52E09603D00A9CE95 /* Debug */,
+				C4B45FE62E09603D00A9CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B45FE72E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B45FE82E09603D00A9CE95 /* Debug */,
+				C4B45FE92E09603D00A9CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B45FEA2E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B45FEB2E09603D00A9CE95 /* Debug */,
+				C4B45FEC2E09603D00A9CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B45FED2E09603D00A9CE95 /* Build configuration list for PBXNativeTarget "Sneakers ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B45FEE2E09603D00A9CE95 /* Debug */,
+				C4B45FEF2E09603D00A9CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA0A7E3B2E09AAA900B5F0BA /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		FA0A7E3D2E09AAA900B5F0BA /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		FA0A7E3F2E09AAA900B5F0BA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA0A7E412E09AAA900B5F0BA /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		FA0A7E432E09AAA900B5F0BA /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		FA0A7E452E09AAA900B5F0BA /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FA0A7E472E09AAA900B5F0BA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FA0A7E492E09AAA900B5F0BA /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		FA0A7E4B2E09AAA900B5F0BA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FA0A7E4D2E09AAA900B5F0BA /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		FA0A7E4F2E09AB2800B5F0BA /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		FA0A7E512E09AB2800B5F0BA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FA0A7E532E09AB2800B5F0BA /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		FA0A7E552E09AB2800B5F0BA /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		FA0A7E572E09AB2800B5F0BA /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		FA0A7E592E09AB2800B5F0BA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FA0A7E5B2E09AB2800B5F0BA /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		FA0A7E5D2E09AB2800B5F0BA /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		FA0A7E5F2E09AB2800B5F0BA /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		FA0A7E612E09AB2800B5F0BA /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		FA0A7E632E09AB2800B5F0BA /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		FA0A7E652E09AB2800B5F0BA /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FA0A7E672E09AB2800B5F0BA /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		FA0A7E692E09AB2800B5F0BA /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		FA0A7E6B2E09AB2800B5F0BA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FA0A7E6D2E09AB2800B5F0BA /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		FA0A7E6F2E09AB2800B5F0BA /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4601E2E09805700A9CE95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C4B45FBA2E09603B00A9CE95 /* Project object */;
+}
