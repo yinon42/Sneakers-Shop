@@ -52,7 +52,8 @@ struct ContentView: View {
                 .padding(.bottom, 16)
             }
             .navigationTitle("Sneakers Shop")
-            .background(Color.white)
+            .background(Color(.systemBackground))
+            .foregroundColor(Color.primary)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
