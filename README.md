@@ -2,7 +2,7 @@
 
 Sneakers.Shop is a SwiftUI-based iOS application for browsing and purchasing sneakers. The app includes Firebase integration for authentication and order history, and allows users to manage their shopping cart with quantity support.
 
-## Link to app demo video
+## Link to app demo video 
 https://drive.google.com/file/d/1PlZHPLRR8EcM7hA8g_EKkkIXEf7BUDAz/view?usp=sharing
 
 ## Link to full project zip file
